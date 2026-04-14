@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موقعي الاحترافي</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* زر */
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* خدمات */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* فوتر */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <h2>🔥 Mohana</h2>
+    <div>
+        <a href="#">الرئيسية</a>
+        <a href="#">خدماتي</a>
+        <a href="#">تواصل</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>مرحباً بك في موقعي 👋</h1>
+    <p>تصميم احترافي يشبه التطبيقات 🔥</p>
+    <a class="btn" href="#" onclick="alert('أهلاً بك 🔥')">ابدأ الآن</a>
+</section>
+
+<section class="services">
+    <h2>💼 خدماتي</h2>
+
+    <div class="cards">
+        <div class="card">🌐 تصميم مواقع</div>
+        <div class="card">📱 تطبيقات ويب</div>
+        <div class="card">⚡ تحسين الأداء</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 | تم التصميم باحتراف 🚀
+</footer>
+
+</body>
+</html>
