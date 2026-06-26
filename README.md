@@ -1,2 +1,1 @@
-# mohanaalharazi7-del.github.io
-موقعي الشخصي
+https://mohanaalharazi7-del.github.io
